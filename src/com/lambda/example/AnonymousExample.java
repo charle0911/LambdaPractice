@@ -1,7 +1,6 @@
 package com.lambda.example;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -41,11 +40,23 @@ public class AnonymousExample {
         System.out.println(list.toString());
     }
 
+    private void makeLambdaFunction(Example example) {
+        example.exampleFunction();
+    }
+
     public static void main(String[] args) {
         AnonymousExample example = new AnonymousExample();
         example.withLambda();
         example.withoutLambda();
         example.hasParameter();
         example.lambdaHasParameter();
+        example.makeLambdaFunction(() -> {
+            System.out.println("Hi i make lambda function by myself");
+        });
+    }
+
+    @FunctionalInterface
+    public interface Example {
+        void exampleFunction();
     }
 }

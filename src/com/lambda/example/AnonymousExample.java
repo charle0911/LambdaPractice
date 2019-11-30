@@ -4,6 +4,14 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * This example description can see my topic in my blog
+ * https://novicetomaster.blogspot.com/2019/11/java-lambda.html
+ *
+ * @author : Charlie Lee
+ * @codeby : IDEA
+ * @since : 2019/11/30
+ */
 public class AnonymousExample {
 
     private void withoutLambda() {

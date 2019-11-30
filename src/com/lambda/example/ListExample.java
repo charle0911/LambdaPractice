@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * This example description can see my topic in my blog
+ * https://novicetomaster.blogspot.com/2019/11/java-lambda-collectionlist.html
+ *
+ * @author : Charlie Lee
+ * @codeby : IDEA
+ * @since : 2019/11/30
+ */
 public class ListExample {
 
     private void forExample(List<String> example) {

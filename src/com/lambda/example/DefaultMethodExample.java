@@ -1,5 +1,14 @@
 package com.lambda.example;
 
+
+/**
+ * This example description can see my topic in my blog
+ * https://novicetomaster.blogspot.com/2019/11/java-interface-default-methods.html
+ *
+ * @author : Charlie Lee
+ * @codeby : IDEA
+ * @since : 2019/11/30
+ */
 public class DefaultMethodExample {
 
     public static void main(String[] args) {

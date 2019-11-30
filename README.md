@@ -11,3 +11,6 @@
 * Map常用的Lambda
 * Stream API
 * Stream pipline
+
+## 內容可以參考我的Blog
+https://novicetomaster.blogspot.com/search/label/Lambda
